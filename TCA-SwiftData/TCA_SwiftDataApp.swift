@@ -12,14 +12,14 @@ import SwiftData
 
 @main
 struct TCA_SwiftDataApp: App {
-    @Dependency(\.modelContextProvider.container) var container
+    @Dependency(\.modelContextProvider.context) var context
 
     var body: some Scene {
         WindowGroup {
             ContentView(store: Store(initialState: ContentFeature.State(), reducer: {
                 ContentFeature()
             }))
-                .modelContainer(container)
+                .modelContext(context)
         }
     }
 }

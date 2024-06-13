@@ -58,10 +58,10 @@ struct ContentView: View {
 
 #Preview {
     Group {
-        @Dependency(\.modelContextProvider.container) var container
+        @Dependency(\.modelContextProvider.context) var context
         ContentView(store: Store(initialState: ContentFeature.State(), reducer: {
             ContentFeature()
         }))
-            .modelContainer(container)
+            .modelContext(context)
     }
 }
