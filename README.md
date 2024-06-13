@@ -1,6 +1,3 @@
-Sure, here is a simple README file for your GitHub repository:
-
-```markdown
 # TCA-SwiftData
 
 A simple practice project combining SwiftUI, SwiftData, and TCA to demonstrate state management and data handling.
@@ -65,7 +62,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or feedback, please open an issue or contact me at [patricksclin@gmail.com].
-
-```
-
-Feel free to replace placeholders like `your-username` and `your-email@example.com` with your actual GitHub username and contact information.
